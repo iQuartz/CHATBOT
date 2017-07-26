@@ -21,6 +21,6 @@ var bot = new builder.UniversalBot(connector);
 server.post('api/messages', connector.listen());
 
 bot.dialog('/', function (session) {
-    session.send("Hi! ICE");
+    session.send("สวัสดีครับ ไม่ทราบว่ามีอะไรให้ช่วยเหลือ กรุณาติดต่อหลังจาก 19.00 น. เป็นต้นไป ขอบคุณครับ");
 });
 
